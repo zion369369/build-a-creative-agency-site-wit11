@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Stellar - Creative Agency</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <header id="main-header">
+        <div class="container">
+            <a href="#" class="logo">Stellar</a>
+            <nav>
+                <ul>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#team">Team</a></li>
+                    <li><a href="#contact" class="btn btn-primary">Contact Us</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <section id="hero">
+            <div class="container">
+                <h1 class="fade-in">We build brands that <span class="highlight">shine</span>.</h1>
+                <p class="fade-in">A creative agency dedicated to launching and growing brands that make an impact.</p>
+                <a href="#portfolio" class="btn btn-secondary fade-in">See Our Work</a>
+            </div>
+        </section>
+
+        <section id="services" class="container">
+            <h2 class="section-title fade-in">What We Do</h2>
+            <div class="services-grid">
+                <div class="service-card fade-in">
+                    <h3>Branding & Identity</h3>
+                    <p>Crafting unique brand stories that resonate with your audience, from logo design to complete brand guidelines.</p>
+                </div>
+                <div class="service-card fade-in">
+                    <h3>Web Design & Dev</h3>
+                    <p>Building beautiful, responsive, and high-performing websites that provide an exceptional user experience.</p>
+                </div>
+                <div class="service-card fade-in">
+                    <h3>Digital Marketing</h3>
+                    <p>Driving growth through data-driven strategies, including SEO, social media, and content marketing.</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="portfolio" class="container">
+            <h2 class="section-title fade-in">Our Portfolio</h2>
+            <div class="filter-buttons fade-in">
+                <button class="filter-btn active" data-filter="all">All</button>
+                <button class="filter-btn" data-filter="branding">Branding</button>
+                <button class="filter-btn" data-filter="web">Web Design</button>
+                <button class="filter-btn" data-filter="marketing">Marketing</button>
+            </div>
+            <div class="portfolio-grid fade-in">
+                <div class="portfolio-item" data-category="branding" data-title="Aura Cosmetics" data-description="We developed a comprehensive brand identity for Aura, a new line of organic cosmetics. The project included logo design, packaging, and a brand style guide to ensure consistency across all platforms." data-image="[GENERATE_IMAGE: elegant cosmetic products with minimalist packaging and a beautiful logo]">
+                    <img src="[GENERATE_IMAGE: minimalist logo for a cosmetic brand called Aura on a pastel background]" alt="Aura Cosmetics">
+                    <div class="overlay"><h3>Aura Cosmetics</h3></div>
+                </div>
+                <div class="portfolio-item" data-category="web" data-title="Quantum Leap" data-description="A sleek, modern website for a tech startup specializing in AI solutions. The site features interactive elements and a clean user interface to showcase their complex technology in an accessible way." data-image="[GENERATE_IMAGE: screenshot of a futuristic tech website homepage with data visualizations]">
+                    <img src="[GENERATE_IMAGE: sleek and modern website design for a tech startup]" alt="Quantum Leap Tech">
+                    <div class="overlay"><h3>Quantum Leap</h3></div>
+                </div>
+                <div class="portfolio-item" data-category="marketing" data-title="Tropic Juice Co." data-description="A vibrant social media campaign that increased brand awareness by 150% in three months. We created engaging content, managed community interactions, and ran targeted ads to reach a new, younger audience." data-image="[GENERATE_IMAGE: colorful social media graphics for a juice company featuring fruit and happy people]">
+                    <img src="[GENERATE_IMAGE: dynamic social media ad for a tropical juice brand]" alt="Tropic Juice">
+                    <div class="overlay"><h3>Tropic Juice Co.</h3></div>
+                </div>
+                <div class="portfolio-item" data-category="web" data-title="Nomad's Gear" data-description="An e-commerce platform for an outdoor apparel brand. The site is optimized for mobile and includes features like a custom product builder and seamless checkout process to boost conversions." data-image="[GENERATE_IMAGE: homepage of an e-commerce website for outdoor adventure gear]">
+                    <img src="[GENERATE_IMAGE: rugged e-commerce website design for outdoor gear]" alt="Nomad's Gear">
+                    <div class="overlay"><h3>Nomad's Gear</h3></div>
+                </div>
+                <div class="portfolio-item" data-category="branding" data-title="The Corner Cafe" data-description="A re-branding project for a local coffee shop aiming for a more modern, cozy feel. We designed a new logo, menus, and interior signage that captured the heart of their community." data-image="[GENERATE_IMAGE: a cozy coffee shop interior with new branding on cups and menus]">
+                    <img src="[GENERATE_IMAGE: charming logo for a local coffee shop called 'The Corner Cafe']" alt="The Corner Cafe">
+                    <div class="overlay"><h3>The Corner Cafe</h3></div>
+                </div>
+                <div class="portfolio-item" data-category="marketing" data-title="Future Vision VR" data-description="A content marketing strategy that established Future Vision as a thought leader in the VR space. We produced blog articles, whitepapers, and video content that drove significant organic traffic and generated high-quality leads." data-image="[GENERATE_IMAGE: a person wearing a VR headset, with futuristic data overlays]">
+                    <img src="[GENERATE_IMAGE: marketing campaign visuals for a virtual reality company]" alt="Future Vision VR">
+                    <div class="overlay"><h3>Future Vision VR</h3></div>
+                </div>
+            </div>
+        </section>
+
+        <section id="team" class="container">
+            <h2 class="section-title fade-in">Meet The Team</h2>
+            <div class="team-grid">
+                <div class="team-member fade-in">
+                    <img src="[GENERATE_IMAGE: professional headshot of a female creative director with a warm smile, studio lighting]" alt="Jane Doe">
+                    <h4>Jane Doe</h4>
+                    <p>Creative Director</p>
+                </div>
+                <div class="team-member fade-in">
+                    <img src="[GENERATE_IMAGE: professional headshot of a male lead developer with glasses and a beard, blurred office background]" alt="John Smith">
+                    <h4>John Smith</h4>
+                    <p>Lead Developer</p>
+                </div>
+                <div class="team-member fade-in">
+                    <img src="[GENERATE_IMAGE: professional headshot of a female marketing strategist looking confident, modern office setting]" alt="Emily White">
+                    <h4>Emily White</h4>
+                    <p>Marketing Strategist</p>
+                </div>
+                 <div class="team-member fade-in">
+                    <img src="[GENERATE_IMAGE: professional headshot of a male UI/UX designer with a creative hairstyle, in front of a whiteboard]" alt="Michael Brown">
+                    <h4>Michael Brown</h4>
+                    <p>UI/UX Designer</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="contact" class="container">
+            <div class="contact-content fade-in">
+                <h2 class="section-title">Have a project in mind?</h2>
+                <p>Let's create something amazing together. Fill out the form and we'll be in touch.</p>
+            </div>
+            <form id="contact-form" class="fade-in">
+                <input type="text" name="name" placeholder="Your Name" required>
+                <input type="email" name="email" placeholder="Your Email" required>
+                <textarea name="message" placeholder="Tell us about your project..." rows="6" required></textarea>
+                <button type="submit" class="btn btn-secondary">Send Inquiry</button>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 Stellar Creative Agency. All Rights Reserved.</p>
+        </div>
+    </footer>
+
+    <div id="modal" class="modal">
+        <div class="modal-content">
+            <span class="close-button">&times;</span>
+            <img id="modal-image" src="" alt="Case Study Image">
+            <h3 id="modal-title"></h3>
+            <p id="modal-description"></p>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
